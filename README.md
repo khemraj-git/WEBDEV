@@ -4,9 +4,9 @@ This repository showcases my web development projects, primarily built with HTML
 
 ## Current Projects
 
-* **(Project Name 1):** [Link to Project 1 if hosted] - A brief description of the project.
-* **(Project Name 2):** [Link to Project 2 if hosted] - A brief description of the project.
-* **(Project Name 3):** [Link to Project 3 if hosted] - A brief description of the project.
+* **job application:**
+* **music website:** 
+* **blog website:** 
 
 ## Technologies Used
 
@@ -27,7 +27,7 @@ I plan to expand this repository by incorporating projects that utilize more adv
 
 To view the projects:
 
-1.  Clone this repository: `git clone <repository_url>`
+1.  Clone this repository: `https://github.com/khemraj-git/WEBDEV.git`
 2.  Navigate to the project directory: `cd <project_directory>`
 3.  Open the `index.html` file (or relevant HTML file) in your web browser.
 
@@ -42,10 +42,7 @@ If you have suggestions for improvements or would like to contribute, please fee
 
 Feel free to reach out if you have any questions or feedback.
 
-* [Your Email Address]
-* [Your GitHub Profile Link]
-* [Any other social media links]
+* [khemraj121giri@gmail.com]
 
-## License
 
-[Add your license here, for example: MIT License]
+
