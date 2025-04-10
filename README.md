@@ -2,7 +2,6 @@
 
 This repository showcases my web development projects, primarily built with HTML, CSS, and JavaScript.
 
-## Current Projects
 
 
 
