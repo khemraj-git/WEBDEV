@@ -7,7 +7,7 @@ This repository showcases my web development projects, primarily built with HTML
 * **job application:**
 * **music website:** 
 * **blog website:**
-* **rock-paper-scissors:** 
+* **Rock paper scissor game**
 
 ## Technologies Used
 
