@@ -5,7 +5,7 @@ This repository showcases my web development projects, primarily built with HTML
 
 Explore each project individually and view live demos to see them in action:
 
-| #   | Project                   | Live Demo |
+| S.NO| Project                   | Live Demo |
 | --- | ------------------------- | --------- |
 | 001 | job application           | --------- |
 | 002 | music website             | --------- |
