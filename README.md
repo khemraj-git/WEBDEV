@@ -8,6 +8,7 @@ This repository showcases my web development projects, primarily built with HTML
 * **music website:** 
 * **blog website:**
 * **Rock paper scissor game**
+* **Blurry loading web-page**
 
 ## Technologies Used
 
