@@ -7,13 +7,13 @@ Explore each project individually and view live demos to see them in action:
 
 | #   | Project                   | Live Demo |
 | --- | ------------------------- | --------- |
-| 001 | job application           | [Live Demo](#) |
-| 002 | music website             | [Live Demo](#) |
-| 003 | blog website              | [Live Demo](#) |
-| 004 | Rock paper scissor game   | [Live Demo](#) |
-| 005 | Blurry loading web-page   | [Live Demo](#) |
+| 001 | job application           | --------- |
+| 002 | music website             | --------- |
+| 003 | blog website              | --------- |
+| 004 | Rock paper scissor game   | --------- |
+| 005 | Blurry loading web-page   | ---------|
 
-
+## NOT HOSTED TILL NOW SOON THE LIVE DEMO WILL BE AVAILABLE:
 
 ## Technologies Used
 
