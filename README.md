@@ -1,13 +1,19 @@
 # My Web Development Projects
 
 This repository showcases my web development projects, primarily built with HTML, CSS, and JavaScript.
+## Project Showcase
 
-## Current Projects
+Explore each project individually and view live demos to see them in action:
 
-* **job application:**
-* **music website:** 
-* **blog website:**
-* **Rock paper scissor game**
+| S.NO| Project                   | Live Demo |
+| --- | ------------------------- | --------- |
+| 001 | job application           | --------- |
+| 002 | music website             | --------- |
+| 003 | blog website              | --------- |
+| 004 | Rock paper scissor game   | --------- |
+| 005 | Blurry loading web-page   | ---------|
+
+## NOT HOSTED TILL NOW SOON THE LIVE DEMO WILL BE AVAILABLE:
 
 ## Technologies Used
 
