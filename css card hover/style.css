@@ -1,0 +1,21 @@
+:root{
+    --background: #fde37f;
+    --card-bg1: hsl(5, 62%, 58%);
+    --card-bg2: hsl(6, 62%, 65%);
+
+}
+
+/*body*/
+*{
+    background: var(--background);
+    font-family: Abel,Arial;
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
