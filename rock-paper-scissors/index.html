@@ -31,18 +31,28 @@
     score.losses = 0;
     score.wins = 0;
     score.ties = 0;
-
+    localStorage.removeItem('score');
     
     ">
         Reset button
     </button>
 
     <script>
-        const score = {
-            wins: 0,
-            losses: 0,
-            ties: 0
-        };
+        //istead of doing this we can do below of this coded
+        // const score = {
+        //     wins: 0,
+        //     losses: 0,
+        //     ties: 0,
+        // };
+
+        let score = JSON.parse(localStorage.getItem('score'));
+        if(score===null){
+            score = {
+                wins: 0,
+                losses: 0,
+                ties: 0
+            }
+        }
         function playgame(playerMove){
             const computerMove = pickComputerMove();
             //console.log(computermove);
@@ -80,6 +90,10 @@
             } else if(result === 'tie'){
                 score.ties++;
             }
+
+            //this will store the preveous record 
+            //which will does not go even the page is refreshed
+            localStorage.setItem('score', JSON.stringify(score));
             
 
         alert(`you picked ${playerMove}. Computer picked ${computermove}. ${result}
