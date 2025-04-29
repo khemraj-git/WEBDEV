@@ -27,11 +27,19 @@
         Scissors
     </button>
 
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+
+    
+
     <button onclick="
     score.losses = 0;
     score.wins = 0;
     score.ties = 0;
     localStorage.removeItem('score');
+
+    updateScoreElement();
     
     ">
         Reset button
@@ -53,6 +61,9 @@
                 ties: 0
             }
         }
+
+        updateScoreElement();
+
         function playgame(playerMove){
             const computerMove = pickComputerMove();
             //console.log(computermove);
@@ -95,9 +106,17 @@
             //which will does not go even the page is refreshed
             localStorage.setItem('score', JSON.stringify(score));
             
+            updateScoreElement();
 
-        alert(`you picked ${playerMove}. Computer picked ${computermove}. ${result}
-        Wins: ${score.wins}, Looses: ${score.losses}, Ties: ${score.ties}`);
+            document.querySelector('.js-result').innerHTML = result;
+
+            
+            document.querySelector('js-moves').innerHTML = `you ${playerMove} - ${computerMove} Computer`;
+        
+        }
+
+        function updateScoreElement(){
+            document.querySelector('.js-score').innerHTML = `wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
         }
 
         let computermove = ' ';
