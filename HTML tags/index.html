@@ -3,9 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>hHTML TAGS</title>
 </head>
 <body>
-    
+    <header>
+        <h1>All HTML Tags in One Page</h1><hr>
+        <nav>
+            <ul>
+                <li><a href="#text">Text Tags</a></li>
+                <li><a href="#media">Media Tags</a></li>
+                <li><a href="#forms">Form Tags</a></li>
+                <li><a href="#table">Table Tags</a></li>
+                <li><a href="#semantic">Semantic Tags</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+
+        <!-- TEXT TAGS -->
+        <section id="text">
+            <h2>Text Formatting Tags</h2>
+            <p>This is a <strong>paragraph</strong> with <em>emphasis</em>, <b>bold</b>, <i>italic</i>,
+                <u>underline</u>, <mark>highlight</mark>, and <small>small text</small>.</p>
+            <p>Subscript: H<sub>2</sub>O | Superscript: 2<sup>2</sup></p>
+
+            <blockquote>This is a blockquote</blockquote>
+
+            <abbr title="HyperText Markup Language">HTML</abbr> is fun!
+            <code>&lt;div&gt;</code> is used for division.
+            <pre>
+                function greet() {
+                    alert("Hello!");
+                }
+            </pre>
+            <hr>
+        </section>
+
+        <!-- MEDIA TAGS -->
+        <section id="media">
+            <h2>Media Tags</h2>
+
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+            <br>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <br>
+
+            <video controls width="320" height="240">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+            <hr>
+
+        </section>
+
+        <!-- LIST TAGS -->
+        <section>
+            <h2>List Tags</h2>
+            <ul>
+                <li>Unordered item 1</li>
+                <li>Unordered item 2</li>
+            </ul>
+            <ol>
+                <li>Ordered item 1</li>
+                <li>Ordered item 2</li>
+            </ol>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+            </dl>
+            <hr>
+        </section>
+
+        <!-- FORM TAGS -->
+        <section id="forms">
+            <h2>Form Tags</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br><br>
+
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+                <input type="checkbox" name="hobbies" value="reading"> Reading<br><br>
+
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </select><br><br>
+
+                <textarea name="message" rows="4" cols="30" placeholder="Type your message here..."></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <button type="button">Click Me!</button>
+            </form>
+            <hr>
+        </section>
+
+        <!-- TABLE TAGS -->
+        <section id="table">
+            <h2>Table Tags</h2>
+            <table border="1">
+                <caption>Student Marks</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Math</th>
+                        <th>Science</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>90</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>95</td>
+                        <td>88</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">End of Table</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+
+
+        <!-- SEMANTIC TAGS -->
+        <section id="semantic">
+            <h2>Semantic Tags</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is an article block.</p>
+            </article>
+            <aside>
+                <p>This is an aside note.</p>
+            </aside>
+            <figure>
+                <img src="https://via.placeholder.com/100" alt="Sample">
+                <figcaption>Sample Image</figcaption>
+            </figure>
+            <details>
+                <summary>Click to expand</summary>
+                <p>Hidden details inside the tag.</p>
+            </details>
+            <time datetime="2025-07-30">July 30, 2025</time>
+
+        </section>
+        <hr>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025. All rights reserved.</p>
+        <address>Contact me at <a href="mailto:example@example.com">example@example.com</a></address>
+    </footer>
+    <hr>
+
 </body>
 </html>
