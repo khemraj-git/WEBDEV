@@ -14,13 +14,13 @@ Explore each project individually and view live demos to see them in action:
 | 005 | Blurry loading web-page   | ---------|
 |006| cricket game                |https://webdev-nyv3x771h-khemrajs-projects-30fea22c.vercel.app/|
 
-## NOT HOSTED TILL NOW SOON THE LIVE DEMO WILL BE AVAILABLE:
+
 
 ## Technologies Used
 
 * HTML5
 * CSS3
-* JavaScript (Currently focused on basic functionality; future projects will explore more advanced JavaScript concepts.)
+* JavaScript 
 
 ## Future Plans
 
