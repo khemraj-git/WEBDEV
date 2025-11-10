@@ -12,14 +12,15 @@ Explore each project individually and view live demos to see them in action:
 | 003 | blog website              | --------- |
 | 004 | Rock paper scissor game   | --------- |
 | 005 | Blurry loading web-page   | ---------|
+|006| cricket game                |[webdev-three-fawn.vercel.app](https://webdev-three-fawn.vercel.app/)|
 
-## NOT HOSTED TILL NOW SOON THE LIVE DEMO WILL BE AVAILABLE:
+
 
 ## Technologies Used
 
 * HTML5
 * CSS3
-* JavaScript (Currently focused on basic functionality; future projects will explore more advanced JavaScript concepts.)
+* JavaScript 
 
 ## Future Plans
 
