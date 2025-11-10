@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BAT BALL STUMP GAME</h1>
+
+    
+
+    <button class="choice-btn" onclick="
+    const userChoiceMsg = 'you have choosen bat';
+    let computerChoice = generateComputerChoice();
+    let resultMsg = getresult('bat',computerChoice);
+    Showresult('bat',computerChoice,resultMsg)   
+    "><img src="images/bat.png" alt="bat img" class="choice-img"></button>
+
+    <button class="choice-btn" onclick="
+    userChoiceMsg = 'you have choosen ball';
+    computerChoice = generateComputerChoice(); 
+    resultMsg = getresult('ball',computerChoice);
+    Showresult('ball',computerChoice,resultMsg)
+    "><img src="images/ball.png" alt="ball img" class="choice-img"></button>
+
+
+
+    <button class="choice-btn" onclick="
+    userChoiceMsg = 'you have choosen stump';
+    computerChoice = generateComputerChoice();
+    resultMsg = getresult('stump',computerChoice);
+    Showresult('stump',computerChoice,resultMsg)
+    "><img src="images/stump.png" alt="stump img" class="choice-img"></button>
+
+    <button onclick="
+    localStorage.clear();
+    resetScore(scoreSTR);
+    ">Reset</button>
+
+    <h3 id="userMove"></h3>
+    <h3 id="computerMove"></h3>
+    <h3 id="result"></h3>
+    <h3 id="score"></h3>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

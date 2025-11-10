@@ -1,0 +1,134 @@
+/* === Base & Layout === */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body{
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #f7f8fa;
+  text-align: center;
+
+  /* subtle gradient background */
+  background:
+    radial-gradient(900px 500px at 10% -10%, rgba(56,126,245,.25), transparent 60%),
+    radial-gradient(800px 600px at 110% 20%, rgba(66,205,148,.25), transparent 60%),
+    #0f1220;
+  padding: 28px 16px;
+}
+
+/* Title */
+h1{
+  margin: 0 0 20px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  font-size: clamp(24px, 5vw, 36px);
+  text-shadow: 0 6px 18px rgba(0,0,0,.35);
+}
+
+/* Group buttons in a nice grid without changing HTML */
+button.choice-btn{
+  /* card-like buttons */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  padding: 12px;
+
+  background: linear-gradient(180deg, #1a1f35, #111527);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+
+/* Hover/active states */
+button.choice-btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px rgba(0,0,0,.45);
+  border-color: rgba(82,156,255,.7);
+}
+button.choice-btn:active{
+  transform: translateY(0);
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+}
+
+/* Image inside choice buttons (your HTML uses .choice-img) */
+.choice-img,
+.choice-image{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 14px rgba(0,0,0,.45));
+}
+
+/* Reset button (your Reset has no class) */
+button:not(.choice-btn){
+  margin-top: 14px;
+  padding: 10px 16px;
+  font-weight: 600;
+
+  background: rgba(255,255,255,.1);
+  color: #f7f8fa;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition: background .15s ease, transform .12s ease;
+}
+button:not(.choice-btn):hover{
+  background: rgba(255,255,255,.18);
+  transform: translateY(-1px);
+}
+button:not(.choice-btn):active{
+  transform: translateY(0);
+}
+
+/* Info blocks (your existing h3 with IDs) */
+h3{
+  margin: 10px auto;
+  max-width: 780px;
+  font-weight: 600;
+}
+
+/* Give each info line a pill style without changing HTML */
+#userMove, #computerMove, #result, #score{
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+/* Emphasize result message */
+#result{
+  background: linear-gradient(90deg, #58a6ff, #42cd94);
+  color: #0e1324;
+  font-weight: 800;
+  letter-spacing: .02em;
+  box-shadow: 0 10px 24px rgba(0,0,0,.35);
+}
+
+/* Score chip */
+#score{
+  background: rgba(255,255,255,.12);
+  border: 1px dashed rgba(255,255,255,.18);
+}
+
+/* Spacing adjustments for your sequence of h3s */
+#userMove { margin-right: 6px; }
+#computerMove { margin-left: 6px; }
+#result { display: block; margin-top: 12px; }
+#score { display: inline-block; margin-top: 6px; }
+
+/* Accessibility: reduce motion */
+@media (prefers-reduced-motion: reduce){
+  *{ transition: none !important; }
+}
+                      
