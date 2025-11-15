@@ -13,6 +13,7 @@ Explore each project individually and view live demos to see them in action:
 | 004 | Rock paper scissor game   | --------- |
 | 005 | Blurry loading web-page   | ---------|
 |006| cricket game                |[webdev-three-fawn.vercel.app](https://webdev-three-fawn.vercel.app/)|
+|007|Todo App                    |https://webdev-8ukl.vercel.app/|
 
 
 
